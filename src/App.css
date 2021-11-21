@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+:root {
+  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 35%;
+  min-height: 80vh;
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+h3 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+}
+
+label {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="month"] {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  border: 1px solid #009767;
+  border-radius: 4px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  background-color: #009767;
+  color: #ffffff;
+  position: relative;
+  padding: 8px;
+  transition: all 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #ff9800;
+  border-color: #ff9800;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
